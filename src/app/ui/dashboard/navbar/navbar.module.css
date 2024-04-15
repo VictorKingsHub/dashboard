@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bgSoft);
+    padding: 20px;
+    border-radius: 10px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+
+}
+.title{
+    text-transform: capitalize;
+    color: var(--textSoft);
+    font-weight: bold;
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    background-color: #2e374a;
+    padding: 10px;
+    border-radius: 10px;
+}
+.input{
+    background-color: transparent;
+    color: var(--text);
+    border: none;
+    outline: none;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}

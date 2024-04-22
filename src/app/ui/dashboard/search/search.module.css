@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+    background-color: #2e374a;
+    padding: 10px;
+    border-radius: 10px;
+    width: max-content;
+}
+
+.input{
+    background-color: transparent;
+    color: var(--text);
+    border: none;
+    outline: none;
+
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+.button{
+ padding: 5px 10px;
+ border-radius: 5px;
+ color: var(--text);
+ border: none;
+ cursor: pointer;
+}
+.view{
+    background-color: teal;
+}
+.delete{
+    background-color: crimson;
+}
